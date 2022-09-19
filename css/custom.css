@@ -1,0 +1,146 @@
+@font-face {
+    font-family:'arzhu';
+    src:url('../qingke.ttf'); /* 修改成你的字体 */
+    font-display:swap
+}
+h1#site-title {
+    font-family:arzhu!important
+}
+span#subtitle {
+    font-family:arzhu!important
+}
+a#site-name {
+    font-family:arzhu!important
+}
+
+svg.icon {
+    /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */
+    width: 1em; height: 1em;
+    /* width和height定义图标的默认宽度和高度*/
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar-thumb {
+    background-color: #2ab1ff;
+    background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.4) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.4) 75%,
+    transparent 75%,
+    transparent
+);
+border-radius: 3em;
+}
+
+::-webkit-scrollbar-track {
+background-color: #ffffff;
+border-radius: 3em;
+}
+
+::-webkit-scrollbar {
+width: 8px;
+height: 15px;
+}
+
+/*文章页背景*//*分类页面*//*时间轴页面*/
+.layout #post, .layout #page , .layout #archive , .layout #category{
+    /* 以下代表透明度为0.5 可以自行修改*/
+	background:rgba(255, 255, 255, .8);
+}
+/*侧边栏页面*/
+#aside-content .sticky_layout .card-widget , #aside-content .card-widget{
+    background: rgba(255,255,255,.8);
+}
+/* 所有页面背景 */
+#recent-posts>.recent-post-item, .read-mode .layout_post>#post{
+    /* 以下代表透明度为0.5 */
+    background: rgba(255,255,255,.8);
+}
+#page-header #nav {
+    /* 以下代表透明度为0.5 */
+    background: transparent!important;
+}
+/*以下是封面图透明*/
+#page-header.full_page::before {
+    background-color: transparent!important;
+}
+/*文章页背景*//*分类页面*//*时间轴页面*/
+[data-theme = dark] .layout>#post,[data-theme = dark] .layout #page ,[data-theme = dark] .layout #archive ,[data-theme = dark] .layout>#category{
+    /* 以下代表透明度为0.5 可以自行修改*/
+	background:rgba(0, 0, 0, 0.8)!important;
+    }   
+/*侧边栏页面*/
+[data-theme = dark] #aside-content .sticky_layout .card-widget , [data-theme = dark] #aside-content .card-widget{
+    background:rgba(0, 0, 0, 0.8)!important;
+}
+/* 所有页面背景 */
+[data-theme = dark] #recent-posts>.recent-post-item,[data-theme = dark]  .read-mode .layout_post>#post{
+    /* 以下代表透明度为0.5 */
+    background:rgba(0, 0, 0, 0.8)!important;
+}
+
+/* body {
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+        default;
+}
+a,
+img {
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+        default;
+} */
+
+/* 全局默认鼠标指针 */
+body,
+html{
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+        default;
+}
+/* 悬停图片时的鼠标指针 */
+img{
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+        default;
+}
+/* 选择链接标签时的鼠标指针 */
+a:hover{
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+        default;
+}
+/* 选中输入框时的鼠标指针 */
+/* input:hover{
+    cursor: url('https://assets.akilar.top/cur/input.cur'),auto;
+} */
+/* 悬停按钮时的鼠标指针 */
+button:hover{
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+        default;
+}
+/* 悬停列表标签时的鼠标指针 */
+i:hover{
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+        default;
+}
+/* 悬停页脚链接标签（例如页脚徽标）时的鼠标指针 */
+#footer-wrap a:hover{
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+        default;
+}
+/* 悬停页码时的鼠标指针 */
+#pagination .page-number:hover{
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+        default;
+}
+/* 悬停菜单栏时的鼠标指针 */
+#nav .site-page:hover{
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+        default;
+}
+
+.jg-caption {
+    text-align: center !important;
+}
