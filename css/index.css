@@ -8795,7 +8795,8 @@ svg.icon {
 
 /* 滚动条 */
 ::-webkit-scrollbar-thumb {
-    background-color: #2ab1ff;
+    /* background-color: #2ab1ff; */
+    background-color: #FFB6C1;
     background-image: -webkit-linear-gradient(
     45deg,
     rgba(255, 255, 255, 0.4) 25%,
@@ -8910,6 +8911,11 @@ i:hover{
 #nav .site-page:hover{
     cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
         default;
+}
+
+.categoryBar-list-item{
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+      default;
 }
 
 .jg-caption {
