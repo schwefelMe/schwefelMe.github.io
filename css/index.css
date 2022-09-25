@@ -2386,14 +2386,14 @@ figure.highlight pre .javascript .function {
   font-size: 1.5em;
 }
 :root {
-  --recent-post-bgcolor: rgba(255,255,255,0.09);
-  --article-content-bgcolor: #49b1f5;
+  --recent-post-bgcolor: rgba(255,255,255,0.1);
+  --article-content-bgcolor: #ffb6c1;
   --recent-post-triangle: #fff;
   --recent-post-cover-shadow: #fff;
 }
 [data-theme="dark"] {
-  --recent-post-bgcolor: rgba(35,35,35,0.09);
-  --article-content-bgcolor: #99999a;
+  --recent-post-bgcolor: rgba(35,35,35,0.1);
+  --article-content-bgcolor: #ffb6c1;
   --recent-post-triangle: #37e2dd;
   --recent-post-cover-shadow: #232323;
 }
@@ -9113,6 +9113,14 @@ i:hover{
 
 .menu-item-main {
   font-family: 'fangyuan','Zhi Mang Xing', cursive !important;
+}
+
+.cardHover, .error404 #error-wrap .error-content, .layout > div:first-child:not(.recent-posts), #aside-content .card-widget {
+  background: rgba(255, 255, 255, .8) !important;
+}
+
+.card-widget.card-info .inner {
+  background: rgba(255, 255, 255, .9);
 }
 
 /* zhi-mang-xing-regular */
