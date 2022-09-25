@@ -9119,6 +9119,10 @@ i:hover{
   background: rgba(255, 255, 255, .8);
 }
 
+[data-theme="dark"].cardHover, .error404 #error-wrap .error-content, .layout > div:first-child:not(.recent-posts), #aside-content .card-widget {
+  background: rgba(0,0,0,0.5);
+}
+
 .card-widget.card-info .inner {
   background: rgba(255, 255, 255, .9);
 }
