@@ -9116,7 +9116,7 @@ i:hover{
 }
 
 .cardHover, .error404 #error-wrap .error-content, .layout > div:first-child:not(.recent-posts), #aside-content .card-widget {
-  background: rgba(255, 255, 255, .8) !important;
+  background: rgba(255, 255, 255, .8);
 }
 
 .card-widget.card-info .inner {
