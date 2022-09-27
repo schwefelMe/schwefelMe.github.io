@@ -9115,11 +9115,15 @@ i:hover{
   font-family: 'fangyuan','Zhi Mang Xing', cursive !important;
 }
 
-.cardHover, .error404 #error-wrap .error-content, .layout > div:first-child:not(.recent-posts), #aside-content .card-widget {
+/* .cardHover, .error404 #error-wrap .error-content, .layout > div:first-child:not(.recent-posts), #aside-content .card-widget {
+  background: rgba(255, 255, 255, .8) !important;
+} */
+
+.layout > div#tag {
   background: rgba(255, 255, 255, .8);
 }
 
-[data-theme="dark"].cardHover, .error404 #error-wrap .error-content, .layout > div:first-child:not(.recent-posts){
+[data-theme="dark"] .layout > div#tag{
   background: rgba(0,0,0,0.5);
 }
 
