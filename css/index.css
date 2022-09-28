@@ -8760,17 +8760,17 @@ blockquote.pullquote.right {
 }
 @font-face {
     font-family:'arzhu';
-    src: url('../qingke.ttf'); /* 修改成你的字体 */
+    src: url('../fonts/qingke.ttf'); /* 修改成你的字体 */
     font-display:swap
 }
 @font-face{
   font-family: 'SAOUI';
-  src: url('../SAOUI.ttf');
+  src: url('../fonts/SAOUI.ttf');
   font-display: swap;
 }
 @font-face{
   font-family: 'fangyuan';
-  src: url('../方圆体.ttf');
+  src: url('../fonts/方圆体.ttf');
   font-display: swap;
 }
 h1#site-title {
@@ -8857,64 +8857,54 @@ height: 15px;
     background:rgba(0, 0, 0, 0.6)!important;
 }
 
-/* body {
-    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
-        default;
-}
-a,
-img {
-    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
-        default;
-} */
-
 /* 全局默认鼠标指针 */
 body,
 html{
-    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+    cursor: url(../cursor/normal.cur),
         default;
 }
 /* 悬停图片时的鼠标指针 */
 img{
-    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+    cursor: url(../cursor/pointer.cur),
         default;
 }
 /* 选择链接标签时的鼠标指针 */
 a:hover{
-    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+    cursor: url(../cursor/pointer.cur),
         default;
 }
 /* 选中输入框时的鼠标指针 */
-/* input:hover{
-    cursor: url('https://assets.akilar.top/cur/input.cur'),auto;
-} */
+input:hover{
+    cursor: url('../cursor/texto.cur'),auto;
+}
 /* 悬停按钮时的鼠标指针 */
 button:hover{
-    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+    cursor: url(../cursor/pointer.cur),
         default;
 }
 /* 悬停列表标签时的鼠标指针 */
 i:hover{
-    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+    cursor: url(../cursor/pointer.cur),
         default;
 }
 /* 悬停页脚链接标签（例如页脚徽标）时的鼠标指针 */
 #footer-wrap a:hover{
-    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+    cursor: url(../cursor/pointer.cur),
         default;
 }
 /* 悬停页码时的鼠标指针 */
 #pagination .page-number:hover{
-    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+    cursor: url(../cursor/pointer.cur),
         default;
 }
 /* 悬停菜单栏时的鼠标指针 */
 #nav .site-page:hover{
-    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+    cursor: url(../cursor/pointer.cur),
         default;
 }
 
 .categoryBar-list-item{
-  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+  cursor: url(../cursor/pointer.cur),
       default;
 }
 
